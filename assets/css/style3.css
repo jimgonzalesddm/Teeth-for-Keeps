@@ -309,7 +309,7 @@ footer img {
 /*home page*/
 .colors-home {
 	width: 3%;
-	height: 220.5vh;
+	height: 229vh;
 
 }
 
@@ -383,10 +383,6 @@ footer img {
     bottom: 20vh;
     right: 10vh;
 }
-
-
-
-
 
 
 /*end home page*/
@@ -655,10 +651,6 @@ footer img {
 		margin-left: 0;
 	}
 
-	.about-home {
-		
-	
-	}
 
 	.about-home-text {
 	/*	padding-left: 15px;*/
@@ -712,6 +704,7 @@ footer img {
 	#footerdiv {
 		padding-right: 0;
 	}
+
 
 	/* end home page */
 
