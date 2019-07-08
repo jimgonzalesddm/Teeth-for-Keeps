@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=Edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+
+
+	<title> Gallery </title>
+
+	<!-- google fonts -->
+	<link href="https://fonts.googleapis.com/css?family=Finger+Paint|Open+Sans&display=swap" rel="stylesheet">
+
+
+	<!-- animate css -->
+	<link rel="stylesheet" href="assets/css/animate.css">
+
+	<!-- fontawesome icons -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+
+	<!-- bootstrap -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+	<!-- external css -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style3.css">
+
+	<!-- fav icon -->
+	<link rel="icon" type="image/gif/png" href="assets/images/finallogo.png">
+</head>
+<body>
+
+	<div class="container-fluid p-0">
+		<div class="row">
+			<div class="colors-side col-lg-6">
+					<img id="red-side" class="colors-home" src="assets/images/red.jpg">
+					<img id="green-side" class="colors-home" src="assets/images/green.jpg">
+					<img id="blue-side" class="colors-home" src="assets/images/blue.jpg">
+					<img id="yellow-side" class="colors-home" src="assets/images/yellow.jpg">
+			</div> <!-- end colors-side -->
+
+		</div>	<!-- end row -->
+	</div>	<!-- end container -->
+
+	<div id="gallery-home" class="container-fluid px-0 d-block">
+		<nav id="navbar" class="navbar navbar-expand-lg navbar-light sticky-top py-0">
+			<a href="home.html" class="navbar-brand">
+				<img id="logo" src="assets/images/finallogo.png">
+				<strong id="brand-nav">TEETH for KEEPS</strong>
+			</a>
+
+
+			<button id="toothbtn" class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-nav"><i class="fas fa-tooth"></i>
+			</button>
+
+			<div id="navbar-nav" class="collapse navbar-collapse">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item" id="navbar-home">
+						<a href="home.html" class="nav-link" id="nav-home">
+							Home
+						</a>
+					</li>
+
+					<li class="nav-item active">
+						<a href="doctors.html" class="nav-link" id="nav-doctors">
+							Doctors
+						</a>
+					</li>
+
+					<li class="nav-item">
+						<a href="gallery.html" class="nav-link" id="nav-gallery">
+							Gallery
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav> <!-- end nav -->
+
+
+		<header id="head-gall" class="card">
+			<h1 class="text-center display-3 pt-4 pb-5"> Gallery Page </h1>
+			
+		</header>
+
+		<div id="gallery-polaroid">
+			<div class="row col-12 col-md-10 col-lg-12">
+				<div id="polaroidclinic" class="polaroid rotate_right" data-toggle="modal" data-target="#gallmodal-1"> 
+		  			<img src="assets/images/clinicpic1.jpg" class="img-fluid">
+		  			<h2 class="caption text-center"> THE CLINIC </h2>
+				</div> 
+
+				<div class="polaroid rotate_left" data-toggle="modal" data-target="#gallmodal-2">
+		  			<img src="assets/images/patient1.jpg" class="img-fluid">
+		  			<h2 class="caption text-center"> PURE FUN! </h2>
+				</div> 
+
+				<div class="polaroid rotate_right" data-toggle="modal" data-target="#gallmodal-3">
+		  			<img src="assets/images/cases2.png" class="img-fluid">
+		  			<h2 class="caption text-center"> CASES </h2>
+				</div> 
+
+				<div class="polaroid rotate_left" data-toggle="modal" data-target="#gallmodal-4">
+		  			<img src="assets/images/wdocerwin.jpg" class="img-fluid">
+		  			<h2 class="caption text-center"> TEAM DOCTORS </h2>
+				</div>
+			</div> 
+		</div> <!-- end polaroid -->
+
+
+
+		<!-- start gallmodal-1 -->
+		<div id="gallmodal-1" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>The Clinic</h5>
+						<button class="close" data-dismiss="modal">
+							<span> &times; </span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="carousel-theclinic" class="carousel slide" data-ride="carousel">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item active carousel-img-gall">
+									<img src="assets/images/chair.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/clinicpic2.jpg" class=" wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/playarea.jpg" class=" wd-100 img-fluid">
+								</div>
+
+								<a href="#carousel-theclinic" class="carousel-control-prev" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a href="#carousel-theclinic" class="carousel-control-next" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+
+							</div><!-- end carousel-inner -->
+						</div> <!-- end carousel-theclinic -->
+
+						<div class="modal-footer"></div>	
+
+					</div> <!-- end modal-body -->
+				</div> <!-- end modal-content -->											
+			</div> <!-- end modal-dialog -->						
+		</div> 
+		<!-- end gallmodal-1 -->
+
+
+		<!-- start gallmodal-2 -->
+		<div id="gallmodal-2" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Pure Fun!</h5>
+						<button class="close" data-dismiss="modal">
+							<span> &times; </span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="carousel-purefun" class="carousel slide" data-ride="carousel">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item active carousel-img-gall">
+									<img src="assets/images/purefun6.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun18.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun11.jpg" class="wd-100 img-fluid">
+								</div>
+
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun16.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun8.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun19.jpg" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/purefun12.jpg" class="wd-100 img-fluid">
+								</div>
+
+
+								
+								<a href="#carousel-purefun" class="carousel-control-prev" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a href="#carousel-purefun" class="carousel-control-next" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+
+							</div><!-- end carousel-inner -->
+						</div> <!-- end carousel-purefun -->
+
+						<div class="modal-footer"></div>	
+
+					</div> <!-- end modal-body -->
+				</div> <!-- end modal-content -->											
+			</div> <!-- end modal-dialog -->						
+		</div> 
+		<!-- end gallmodal-2 -->
+
+		<!-- start gallmodal-3 -->
+		<div id="gallmodal-3" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Cases</h5>
+						<button class="close" data-dismiss="modal">
+							<span> &times; </span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="carousel-cases" class="carousel slide" data-ride="carousel">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item active carousel-img-gall">
+									<img src="assets/images/cases1.png" class="wd-100 img-fluid">
+								</div>
+
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases4.png" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases5.png" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases7.png" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases8.png" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases6.png" class="wd-100 img-fluid">
+								</div>
+
+								<div class="carousel-item carousel-img-gall">
+									<img src="assets/images/cases3.png" class="wd-100 img-fluid">
+								</div>
+
+
+								
+								<a href="#carousel-cases" class="carousel-control-prev" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a href="#carousel-cases" class="carousel-control-next" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+
+							</div><!-- end carousel-inner -->
+						</div> <!-- end carousel-cases -->
+
+						<div class="modal-footer"></div>	
+
+					</div> <!-- end modal-body -->
+				</div> <!-- end modal-content -->											
+			</div> <!-- end modal-dialog -->						
+		</div> 
+		<!-- end gallmodal-3 -->
+
+		<!-- start gallmodal-4 -->
+		<div id="gallmodal-4" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5>Team Doctors</h5>
+						<button class="close" data-dismiss="modal">
+							<span> &times; </span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<div id="carousel-teamdoctors" class="carousel slide" data-ride="carousel">
+							
+							<div class="carousel-inner">
+								<div class="carousel-item active carousel-img-gall">
+									<img src="assets/images/wdocerwin.jpg" class="wd-100 img-fluid">
+								</div>						
+
+								<a href="#carousel-teamdoctors" class="carousel-control-prev" role="button" data-slide="prev">
+									<span class="carousel-control-prev-icon"></span>
+								</a>
+								<a href="#carousel-teamdoctors" class="carousel-control-next" role="button" data-slide="next">
+									<span class="carousel-control-next-icon"></span>
+								</a>
+
+							</div><!-- end carousel-inner -->
+						</div> <!-- end carousel-theclinic -->
+
+						<div class="modal-footer"></div>	
+
+					</div> <!-- end modal-body -->
+				</div> <!-- end modal-content -->											
+			</div> <!-- end modal-dialog -->						
+		</div> 
+		<!-- end gallmodal-4 -->
+
+
+	
+		<!-- The social media icon bar -->
+		<div class="icon-bar">
+		  	<a href="https://www.teethforkeeps.com" target="_blank" class="facebook"><i class="fab fa-facebook-f"></i></a> 
+		  	<a href="https://www.teethforkeeps.com" target="_blank" class="twitter"><i class="fab fa-facebook-messenger"></i></a> 
+		  	<a href="#" class="google" data-toggle="modal" data-target="#modal-footer"><i class="fas fa-map-marker-alt"></i></a>
+		  	<a href="#" class="linkedin" data-toggle="modal" data-target="#modal-phone"><i class="fas fa-phone"></i></a> 
+		</div>
+
+		<!-- start modal for phone -->
+		<div id="modal-phone" class="modal fade">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header text-center">
+						<h5>Contact Numbers</h5>
+							<button class="close" data-dismiss="modal">
+								<span> &times; </span>
+							</button>
+					</div>
+					<div class="modal-body">
+						<p class="text-center">
+							<i class="fas fa-phone"></i>
+							02 - 533 - 6350
+									
+							<i class="fas fa-mobile-alt"></i>
+							+63923 - 585 - 5515
+						</p>								
+					</div>
+				</div>							
+			</div>						
+		</div>
+		 <!-- end modal phone -->		
+
+
+
+
+
+
+		
+
+		<footer id="footer-gallery" class="container-fluid footer p-0">
+			<div class="row text-center">
+
+				<div class="col-lg-12 text-center">
+							
+					<p class="copyright text-center my-0 ml-3 py-3"><small> &copy; 2019 Jim Gonzales | Zuitt Coding Bootcamp</small>
+					</p>
+				</div> <!-- end col -->
+			</div> <!-- end row -->
+
+
+
+
+			<!-- start modal for gmap -->
+			<div id="modal-footer" class="modal fade">
+				<div class="modal-dialog" role="document">
+					<div class="modal-content">
+						<div class="modal-header">
+							<h5>Find us here:</h5>
+							<button class="close" data-dismiss="modal">
+								<span> &times; </span>
+							</button>
+						</div>
+						<div class="modal-body">
+							<iframe id="gmap" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d247214.5609450294!2d120.91377630709404!3d14.500325634768148!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d73e2b4aeec5%3A0xc04f7857018005da!2sTeeth+For+Keeps!5e0!3m2!1sen!2sph!4v1562227823999!5m2!1sen!2sph" allowfullscreen></iframe>
+						</div>
+					</div>					
+				</div>						
+			</div> 
+			<!-- end modal for gmap -->
+
+
+		</footer> <!-- end footer -->
+	
+	</div> <!-- end container -->
+
+	<a href="#gallery-home" id="back"> <i class="fas fa-angle-double-up fa-3x"></i> </a>
+
+
+	<!-- bootstrap dependencies -->
+	<!-- jQuery library -->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	<!-- Popper JS -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+
+	<!-- Latest compiled JavaScript -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+</body>
+</html>
